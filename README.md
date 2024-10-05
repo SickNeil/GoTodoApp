@@ -36,7 +36,7 @@ cd $專案目錄
 docker compose up --build\
 這會啟動兩個 Docker 容器：
 
-todo-app: 包含 Go 應用程式，運行在 http://localhost:3000。\
+todo-app: 包含 Go 應用程式，運行在 http://localhost:3000。 \
 todo-database: 包含 MongoDB 資料庫，運行在 localhost:27017。
 
 2 開啟應用程式\
