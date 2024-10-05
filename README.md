@@ -58,7 +58,7 @@ todo-database: 包含 MongoDB 資料庫，運行在 localhost:27017。
 
 在瀏覽器中打開 [http://localhost:3000](http://localhost:3000/)，可以在此新增待辦事項和查看現存的項目。
 
-### 3. 停止應用程式### 
+### 3. 停止應用程式
 
 要停止並移除容器，請使用以下命令：
 
