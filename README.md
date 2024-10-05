@@ -12,16 +12,17 @@ Todo App with Go and MongoDB
 │   └── todo.go\
 └── templates/\
     └── todos.html
-    
-main.go: 應用程式的主文件，定義了服務器啟動、路由和 MongoDB 連接。
-models/todo.go: 定義了 Todo 結構體和與 MongoDB 的交互。
-templates/todos.html: 用於顯示待辦事項列表的 HTML 模板。
-docker-compose.yml: 定義了 Docker 服務，包括應用程式和 MongoDB。
-Dockerfile: 定義了如何構建應用程式的 Docker 映像。
-環境要求
-Docker: 安裝 Docker 以便運行容器化的應用程式。
-Docker Compose: 用於同時運行 Go 應用程式和 MongoDB 服務。
-安裝與運行
+
+main.go: 應用程式的主文件，定義了服務器啟動、路由和 MongoDB 連接。\
+models/todo.go: 定義了 Todo 結構體和與 MongoDB 的交互。\
+templates/todos.html: 用於顯示待辦事項列表的 HTML 模板。\
+docker-compose.yml: 定義了 Docker 服務，包括應用程式和 MongoDB。\
+Dockerfile: 定義了如何構建應用程式的 Docker 映像。\
+
+環境要求\
+Docker: 安裝 Docker 以便運行容器化的應用程式。\
+Docker Compose: 用於同時運行 Go 應用程式和 MongoDB 服務。\
+安裝與運行\
 請按照以下步驟克隆此倉庫並啟動應用程式：
 
 1. 構建並啟動應用程式
