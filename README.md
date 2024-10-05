@@ -25,7 +25,7 @@ Docker Compose: 用於同時運行 Go 應用程式和 MongoDB 服務。\
 安裝與運行\
 請按照以下步驟 Clone 此倉庫並啟動應用程式：
 
-1. 建構並啟動應用程式\
+1 建構並啟動應用程式\
 首先進入專案的目錄：
 
 cd $專案目錄
@@ -39,10 +39,10 @@ docker compose up --build\
 todo-app: 包含 Go 應用程式，運行在 http://localhost:3000。\
 todo-database: 包含 MongoDB 資料庫，運行在 localhost:27017。
 
-2. 開啟應用程式\
+2 開啟應用程式\
 在瀏覽器中打開 http://localhost:3000，可以在此新增待辦事項和查看現存的項目。
 
-3. 停止應用程式\
+3 停止應用程式\
 要停止並移除容器，請使用以下命令：
 
 docker compose down
