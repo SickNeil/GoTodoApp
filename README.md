@@ -2,16 +2,17 @@ Todo App with Go and MongoDB
 這是一個使用 Go 和 MongoDB 構建的簡單待辦事項應用程式，並通過 Docker 運行。該應用程式允許用戶添加和刪除待辦事項，並將資料存儲在 MongoDB 中。
 
 專案結構
-.
-├── Dockerfile
-├── docker-compose.yml
-├── go.mod
-├── go.sum
-├── main.go
-├── models/
-│   └── todo.go
-└── templates/
+.\
+├── Dockerfile\
+├── docker-compose.yml\
+├── go.mod\
+├── go.sum\
+├── main.go\
+├── models/\
+│   └── todo.go\
+└── templates/\
     └── todos.html
+    
 main.go: 應用程式的主文件，定義了服務器啟動、路由和 MongoDB 連接。
 models/todo.go: 定義了 Todo 結構體和與 MongoDB 的交互。
 templates/todos.html: 用於顯示待辦事項列表的 HTML 模板。
