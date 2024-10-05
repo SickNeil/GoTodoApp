@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  todo-app:
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - todo-database
+
+  todo-database:
+    image: mongo:6
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db  
+
+volumes:
+  mongo-data:
