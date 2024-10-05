@@ -1,5 +1,5 @@
 Todo App with Go and MongoDB\
-這是一個使用 Go 和 MongoDB 建構的簡單待辦事項應用程式，並通過 Docker 執行。該應用程式允許用戶新增和刪除待辦事項，並將資料存儲在 MongoDB 中。
+這是一個使用 Go 和 MongoDB 建構的簡單待辦事項應用程式，並通過 Docker 執行。該應用程式允許使用者新增和刪除待辦事項，並將資料存儲在 MongoDB 中。
 
 專案結構\
 .\
